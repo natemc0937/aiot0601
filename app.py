@@ -6,10 +6,10 @@ import json
 app = Flask(__name__)
 #0531 change 1
 # the following configuration must use heroku add-on postgredb
-myserver ="ec2-34-231-221-151.compute-1.amazonaws.com"
-myuser="ldievixrcvpxjk"
-mypassword="ff5bee0af4dd26cea77ed8a8cdd75a16fac264c86bb209a841df245e6dbcbb79"
-mydb="d6uub15jv93qa1"
+myserver ="ec2-52-44-13-158.compute-1.amazonaws.com"
+myuser="dsjnrxaigeaevg"
+mypassword="74cc463ed1113fa45e500cc16840ae4f1b5c84d14e1aa11c599e3de36f5e7985"
+mydb="d6hl7athf4v52b"
 
 
 @app.route("/data.json")
@@ -41,7 +41,7 @@ def getData():
 	# myserver ="localhost"
 	# myuser="test123"
 	# mypassword="test123"
-	# mydb="aiotdb"
+	# mydb="aiot0601"
 	
 	
 	debug =0
@@ -94,7 +94,7 @@ def getPredict():
 	# myserver ="localhost"
 	# myuser="test123"
 	# mypassword="test123"
-	# mydb="aiotdb"
+	# mydb="aiot0601"
 	
 	debug =0
 	from  pandas import DataFrame as df
@@ -188,5 +188,6 @@ def getPredict():
 
 
 if __name__ == '__main__':
+    # app.run()
 	app.run(debug=True, use_reloader=True)
 
