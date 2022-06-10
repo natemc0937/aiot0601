@@ -43,10 +43,11 @@ mydb="<fill-in-Heroku-Postgredb-DB-db>"
 
 
 ```sql
-myserver ="<fill-in-Heroku-Postgredb-DB-sever>"
-myuser="<fill-in-Heroku-Postgredb-DB-user>"
-mypassword="<fill-in-Heroku-Postgredb-DB-pwd>"
-mydb="<fill-in-Heroku-Postgredb-DB-db>"
+myserver ="ec2-52-44-13-158.compute-1.amazonaws.com"
+myuser="dsjnrxaigeaevg"
+mypassword="74cc463ed1113fa45e500cc16840ae4f1b5c84d14e1aa11c599e3de36f5e7985"
+mydb="d6hl7athf4v52b"
+
 
 ```
 ### step 7: testing locally by running python app.py
