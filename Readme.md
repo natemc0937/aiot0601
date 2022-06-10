@@ -27,7 +27,11 @@ pip install gunicorn  Flask==2.0.1 Jinja2==3.0.1 psycopg2 sklearn pandas numpy
 * go to resource and add-on an Heroku postgredb
 
 ### step 4: login to heroku pstgredb using HeidiSQL
+#### HeidiSQL setup
+![heidi](img/heidi.png)
 
+#### Postgredb in Herolu
+![heidi](img/postgredbOnHeroku.png)
 
 ```sql
 myserver ="<fill-in-Heroku-Postgredb-DB-sever>"
@@ -57,18 +61,15 @@ mydb="d6hl7athf4v52b"
 
 delete .git and git remote add origin master github.com/xxxxx
 
-
 ### step 9: Heroku deploy from github
+![success_deployed](img/Heroku_deploy.png)
 
 ### step 10: Complete
 
 Sample link 1:
-https://awinlab-aiot.herokuapp.com/
+https://aiot0601-natemc0937.herokuapp.com/
+![remote_AI](img/remote_AI.png)
 
 Sample link 2: 
-https://aiot0529.herokuapp.com/
-
-
-![success](./static/success.jpg)
-
-
+https://aiot0601-natemc0937.herokuapp.com/noAI
+![remote_random](img/remote_random.png)
