@@ -51,6 +51,7 @@ mydb="d6hl7athf4v52b"
 
 ```
 ### step 7: testing locally by running python app.py
+![local success.png](img/local_success.png)
 
 ### step 8: deploy to github (new public github repositoy 不然看不到)
 
